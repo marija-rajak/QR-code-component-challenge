@@ -44,4 +44,4 @@ SInce this was very basic project, it coud be improved by replacing flexbox with
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/marija-rajak)
+- Frontend Mentor - [@marija-rajak](https://www.frontendmentor.io/profile/marija-rajak)
