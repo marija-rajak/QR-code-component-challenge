@@ -3,6 +3,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-size: 15px;
 }
 
 body {
@@ -13,29 +14,36 @@ footer {
 	font-size: 11px;
 	text-align: center;
 	position: relative;
+	position: fixed;
+	bottom: 0;
+	padding: 10px;
+	left: 0;
+	right: 0;
+
 }
 
 footer a {
 	color: rgb(62, 82, 163);
+	font-size: 11px;
 }
 
 main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 95vh;
-	background-color: blueviolet;
+	padding: 80px;
 }
 
 .card {
-	width: 320px;
+	width: 280px;
 	border-radius: 20px;
 	overflow: none;
 	background-color: white;
-	padding: 20px;
+	padding: 15px;
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
+	z-index: 1;
 }
 
 .card img {
@@ -45,13 +53,13 @@ main {
 
 .card h1 {
 	font-weight: 700;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 .card p {
-	font-weight: 300;
+	font-weight: 400;
 	text-align: center;
-	margin: 20px 0 30px;
+	margin: 15px 0 30px;
 }
