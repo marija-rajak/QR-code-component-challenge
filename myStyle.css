@@ -7,7 +7,7 @@
 }
 
 body {
-	background-color: rgb(212, 214, 219);
+	background-color: rgb(214, 226, 240);
 }
 
 footer {
@@ -23,15 +23,15 @@ footer {
 }
 
 footer a {
-	color: rgb(62, 82, 163);
-	font-size: 11px;
+	color: rgb(31, 50, 81);
+	font-size: 12px;
 }
 
 main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 80px;
+	padding: 80px 0;
 }
 
 .card {
@@ -62,4 +62,5 @@ main {
 	font-weight: 400;
 	text-align: center;
 	margin: 15px 0 30px;
+	color: rgb(123, 135, 157);
 }
